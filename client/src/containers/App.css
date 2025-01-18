@@ -1,0 +1,51 @@
+body {
+  background: #1B0B3C;
+  color: white;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+.container {
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  width: 90%;
+  position: relative;
+  margin-top: 2rem;
+  background-color: transparent;
+  backdrop-filter: blur(90px);
+  height: 100vh;
+  border-radius: 40px 40px 0 0;
+  border: 1px solid rgb(240, 240, 240, 0.3);
+}
+
+.bg {
+  position: absolute;
+  margin-top: 10rem;
+  z-index: -100;
+  background-image: url('../assets/Ellipse.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 1000px;
+}
+
+.linear-line {
+  position: relative;
+  z-index: 10000000;
+  bottom: 50px;
+  background-image: linear-gradient(to top, #1B0B3C 50%, transparent 100%);
+  width: 100vw;
+  height: 100px;
+}

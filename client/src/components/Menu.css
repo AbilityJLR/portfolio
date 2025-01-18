@@ -1,0 +1,46 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.menu-home {
+  margin-top: 1rem;
+}
+.menu-projects {
+  margin-top: 1rem;
+}
+
+.menu-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D1BDFF;
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  margin-top: -.5rem;
+}
+
+.menu-logo .glasses-logo {
+  margin-top: .25rem;
+}
+
+.menu-skills {
+  margin-top: 1rem;
+}
+.menu-tools {
+  margin-top: 1rem;
+}
+
