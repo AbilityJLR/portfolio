@@ -49,3 +49,45 @@ button:focus {
   width: 100vw;
   height: 100px;
 }
+
+.projects-container { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-projects-container {
+  width: 90%;
+}
+
+.projects-text {
+  text-align: center;
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.content-projects-box {
+  width: 100px;
+  border: 1px solid red;
+}
+
+.glassy-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-project {
+  width: 33%;
+}
+.center-project {
+  margin: 0 1rem 0 1rem;
+  width: 33%;
+}
+.center-top {
+  margin-bottom: 3rem;
+}
+.right-project {
+  width: 33%;
+}
