@@ -23,7 +23,7 @@ button:focus {
   width: 90%;
   position: relative;
   margin-top: 2rem;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(90px);
   height: 100vh;
   border-radius: 40px 40px 0 0;
@@ -48,6 +48,34 @@ button:focus {
   background-image: linear-gradient(to top, #1B0B3C 50%, transparent 100%);
   width: 100vw;
   height: 100px;
+}
+
+.quote-container {
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.inner-quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  text-align: center;
+  width: 90%;
+  font-size: 64px;
+}
+
+.quote-credit {
+  position: absolute;
+  right: 2rem;
+}
+
+.linear-color {
+  background-image: linear-gradient(to right, #E541F7 0%, #6CB6FF 80%);
+  color: transparent;
+  background-clip: text;
 }
 
 .projects-container { 
@@ -81,13 +109,155 @@ button:focus {
 .left-project {
   width: 33%;
 }
+
+.project-content-title {
+  margin-top: .5rem;
+  margin-bottom: .25rem;
+  font-size: 48px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #E541F7 0%, #6CB6FF 80%);
+  color: transparent;
+  background-clip: text;
+}
+
+.project-content {
+  font-size: 20px;
+}
+
+.img-project-tuboardgames {
+  border-radius: 40px 40px 0 0;
+  background-image: url("../assets/tu-board-games.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 200px;
+}
+
+.img-project-replaceword {
+  border-radius: 40px 40px 0 0;
+  background-image: url("../assets/replace-word.png");
+  background-size: cover;
+  width: 100%;
+  min-height: 200px;
+}
+
+.img-project-devonaut {
+  border-radius: 40px 40px 0 0;
+  background-image: url("../assets/devonaut.png");
+  background-size: cover;
+  width: 100%;
+  min-height: 200px;
+}
+
+.img-project-agentdev {
+  border-radius: 40px 40px 0 0;
+  background-image: url("../assets/agentdev.png");
+  background-size: cover;
+  width: 100%;
+  min-height: 200px;
+}
+
+.more-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 40px;
+  width: 115px;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #E541F7 0%, #6CB6FF 80%);
+}
+
+.bottom-project-container {
+  bottom: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .center-project {
   margin: 0 1rem 0 1rem;
   width: 33%;
 }
+
 .center-top {
   margin-bottom: 3rem;
 }
+
 .right-project {
   width: 33%;
+}
+
+.skills-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-skills-container {
+  width: 100%;
+}
+
+.skills-text {
+  font-size: 64px;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.footer {
+  padding-top: 2rem;
+  width: 100%;
+  background-color: #0E0422;
+}
+
+.linear-line-footer {
+  position: relative;
+  top: 50px;
+  z-index: 10000000;
+  background-image: linear-gradient(to bottom, #1B0B3C 50%, transparent 100%);
+  width: 100vw;
+  height: 100px;
+}
+
+.footer-top {
+  margin-left: 4rem;
+  font-size: 258px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #E541F7 0%, #6CB6FF 80%);
+  color: transparent;
+  background-clip: text;
+}
+
+.small-quote {
+  margin-top: -2rem;
+  margin-left: 7.5rem;
+  font-size: 24px;
+}
+
+.contacts-container {
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 10rem;
+  display: flex;
+}
+
+.left-contacts {
+  width: 30%;
+}
+
+.followme-text {
+  font-weight: bold;
+}
+
+.right-contacts {
+  width: 30%;
+}
+
+.contacts-text {
+  font-weight: bold
 }

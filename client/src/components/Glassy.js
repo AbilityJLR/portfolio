@@ -1,15 +1,10 @@
 import './Glassy.css';
 
-function Glassy({ children }) {
+function Glassy({ children, size }) {
   return (
-    <div className='glassy-container'>
-      <div className='inner-glassy-container'>
-        <div className='title'>
-          {children.props.title}
-        </div>
-        <div className='content'>
-          {children.props.children}
-        </div>
+    <div className='glassy-container' >
+      <div className='inner-glassy-container' style={{ width: size.width, minHeight: size.height }}>
+        {children}
       </div>
     </div>
   )
